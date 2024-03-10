@@ -6,6 +6,10 @@
 npm i -g @fakoua/powerai
 ```
 
+
+https://github.com/fakoua/PowerAI/assets/2089210/54b77c56-be2f-4380-a985-e94334384069
+
+
 ## Your Windows Command Line Assistant
 
 PowerAI is a cutting-edge Node.js CLI (Command Line Interface) tool designed to empower Windows users with the seamless integration of conversational AI and PowerShell commands. Powered by TypeScript, Node.js, and the ChatGPT API, PowerAI offers a novel approach to command line interaction, allowing users to communicate with their system in plain English.
