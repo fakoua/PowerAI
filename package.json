@@ -1,9 +1,13 @@
 {
   "name": "@fakoua/powerai",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Sameh Fakoua",
     "email": "s.fakoua@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakoua/PowerAI"
   },
   "description": "Your Windows Command Line Assistant (AI)",
   "keywords": [
@@ -23,9 +27,9 @@
     "lint": "eslint --ext .ts ./",
     "dev": "tsc && node ./dist/index.js",
     "build": "tsc",
-    "publish": "npm publish --access=public"
+    "pub": "npm publish --access=public"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.25",
     "@types/prompt-sync": "^4.2.3",

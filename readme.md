@@ -21,3 +21,8 @@ Key Features:
 - Node.js Compatibility: Compatible with Node.js, ensuring cross-platform usability.
 
 Get ready to revolutionize your command line experience with PowerAI. Say goodbye to complexity and hello to simplicity and efficiency.
+
+## API Key
+
+You must set the `OPENAI_API_KEY` environment variable in your current shell,
+using a key obtained from https://platform.openai.com/account/api-keys
