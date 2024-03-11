@@ -1,6 +1,6 @@
 {
   "name": "@fakoua/powerai",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Sameh Fakoua",
     "email": "s.fakoua@gmail.com"
@@ -27,7 +27,7 @@
     "lint": "eslint --ext .ts ./",
     "dev": "tsc && node ./dist/index.js",
     "build": "tsc",
-    "pub": "npm publish --access=public"
+    "pub": "npm run dev && npm publish --access=public"
   },
   "license": "MIT",
   "devDependencies": {
