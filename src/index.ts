@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 import child_process from 'node:child_process'
 import promptSync from 'prompt-sync'
+import { promisify } from 'node:util'
 
-import { type ChatCompletionRequest, getChatResponse } from './modules/ai'
-import { promisify } from 'node:util';
+import OpenAIService from './openai-service'
 
 (async () => {
+  const openaiService = new OpenAIService()
   await execCommand('cls')
   console.log('Welcome to PowerAI')
   console.log("Type 'exit' to quit")
@@ -14,7 +15,7 @@ import { promisify } from 'node:util';
     if (userRequest === 'exit') {
       break
     }
-    const result = await askGpt(userRequest)
+    const result = await openaiService.askGpt(userRequest)
     console.log(result)
     const res = await execCommand(result) // Add 'await' keyword here
     console.log(res)
@@ -22,26 +23,6 @@ import { promisify } from 'node:util';
 })().catch((e) => {
   console.error(e)
 })
-
-async function askGpt (userRequest: string): Promise<string> {
-  const req: ChatCompletionRequest = {
-    messages: [
-      {
-        role: 'system',
-        content:
-          'You are a powershell command generation assistant. You will be given a description of the commands and a text description on what needs to be done. Respond with only the command without explanation and without ```, you may add arguments and parameters based on the question. if you need a directory path assume the user wants the current directory. Try always to use single quote.'
-      },
-
-      {
-        role: 'user',
-        content: userRequest
-      }
-    ],
-    model: 'gpt-3.5-turbo'
-  }
-
-  return await getChatResponse(req) ?? ''
-}
 
 async function execCommand (command: string): Promise<string> {
   const exec = promisify(child_process.exec)
