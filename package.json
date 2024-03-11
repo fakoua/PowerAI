@@ -27,7 +27,7 @@
     "lint": "eslint --ext .ts ./",
     "dev": "tsc && node ./dist/index.js",
     "build": "tsc",
-    "pub": "npm run dev && npm publish --access=public"
+    "pub": "tsc && npm publish --access=public"
   },
   "license": "MIT",
   "devDependencies": {
