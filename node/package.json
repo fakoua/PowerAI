@@ -1,0 +1,49 @@
+{
+  "name": "@fakoua/powerai",
+  "version": "1.1.2",
+  "author": {
+    "name": "Sameh Fakoua",
+    "email": "s.fakoua@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakoua/PowerAI"
+  },
+  "description": "Your Windows Command Line Assistant (AI)",
+  "keywords": [
+    "powerai",
+    "powershell",
+    "chatgpt",
+    "ai",
+    "assistant",
+    "windows",
+    "command",
+    "line"
+  ],
+  "bin": {
+    "powerai": "./dist/index.js"
+  },
+  "scripts": {
+    "lint": "eslint --ext .ts ./",
+    "dev": "tsc && node ./dist/index.js",
+    "build": "tsc",
+    "pub": "tsc && npm publish --access=public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/prompt-sync": "^4.2.3",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "node-cmd": "^5.0.0",
+    "openai": "^4.28.4",
+    "prompt-sync": "^4.2.0"
+  }
+}
