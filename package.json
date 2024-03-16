@@ -28,5 +28,9 @@
   "bugs": {
     "url": "https://github.com/fakoua/PowerAI/issues"
   },
-  "homepage": "https://github.com/fakoua/PowerAI#readme"
+  "homepage": "https://github.com/fakoua/PowerAI#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-exec": "^3.0.0"
+  }
 }

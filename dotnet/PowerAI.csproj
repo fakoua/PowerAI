@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
@@ -10,6 +9,21 @@
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <ApplicationIcon>PowerAI.ico</ApplicationIcon>
     <AssemblyName>PowerAI</AssemblyName>
+    <Version>1.0.0.0</Version>
+    <Authors>Sameh Fakoua</Authors>
+    <Company>@fakoua</Company>
+    <Product>PowerAI</Product>
+    <PackageId>PowerAI</PackageId>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Your Windows Command Line Assistant (AI)</Description>
+    <Copyright>Sameh Fakoua</Copyright>
+    <PackageLicenseUrl>https://github.com/fakoua/PowerAI/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/fakoua/PowerAI</PackageProjectUrl>
+    <PackageIconUrl>Icon URL</PackageIconUrl>
+    <RepositoryUrl>https://github.com/fakoua/PowerAI</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

@@ -12,8 +12,8 @@ https://github.com/fakoua/PowerAI/assets/2089210/54b77c56-be2f-4380-a985-e943343
 
 PowerAI is a cutting-edge Deno CLI (Command Line Interface) tool designed to
 empower Windows users with the seamless integration of conversational AI and
-PowerShell commands. Powered by TypeScript, Deno, and the ChatGPT API,
-PowerAI offers a novel approach to command line interaction, allowing users to
+PowerShell commands. Powered by TypeScript, Deno, and the ChatGPT API, PowerAI
+offers a novel approach to command line interaction, allowing users to
 communicate with their system in plain English.
 
 Gone are the days of memorizing complex commands or navigating through endless
@@ -33,8 +33,7 @@ Key Features:
   user requests.
 - TypeScript Backbone: Built with TypeScript for robustness, scalability, and
   maintainability.
-- Deno Compatibility: Compatible with Deno, ensuring cross-platform
-  usability.
+- Deno Compatibility: Compatible with Deno, ensuring cross-platform usability.
 
 Get ready to revolutionize your command line experience with PowerAI. Say
 goodbye to complexity and hello to simplicity and efficiency.
