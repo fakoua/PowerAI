@@ -23,13 +23,17 @@ module.exports = function (grunt) {
         command: "deno fmt",
       },
       deno_lint: {
-        cwd: "./deno",
+        cwd: "deno",
         command: "deno lint",
+      },
+      deno_publish: {
+        cwd: "deno",
+        command: "deno publish",
       },
     },
   });
 
-  grunt.registerTask("node", ["exec:node_lint"]);
+  grunt.registerTask("node", ["exec:node_lint", "exec:node_publish"]);
   grunt.registerTask("dotnet", ["exec:dotnet_build", "exec:dotnet_publish"]);
-  grunt.registerTask("deno", ["exec:deno_fmt", "exec:deno_lint"]);
+  grunt.registerTask("deno", ["exec:deno_fmt", "exec:deno_lint", "exec:deno_publish"]);
 };
