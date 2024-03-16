@@ -3,31 +3,31 @@ module.exports = function (grunt) {
   grunt.initConfig({
     exec: {
       node_lint: {
-        cwd: "node",
+        cwd: "./node",
         command: "eslint --ext .ts ./",
       },
       node_publish: {
-        cwd: "node",
+        cwd: "./node",
         command: "tsc && npm publish --access=public",
       },
       dotnet_build: {
-        cwd: "dotnet",
+        cwd: "./dotnet",
         command: "dotnet build",
       },
       dotnet_publish: {
-        cwd: "dotnet",
+        cwd: "./dotnet",
         command: "dotnet publish -c Release -o ./publish",
       },
       deno_fmt: {
-        cwd: "deno",
+        cwd: "./deno",
         command: "deno fmt",
       },
       deno_lint: {
-        cwd: "deno",
+        cwd: "./deno",
         command: "deno lint",
       },
       deno_publish: {
-        cwd: "deno",
+        cwd: "./deno",
         command: "deno publish",
       },
     },
