@@ -28,4 +28,4 @@ jobs:
       run: dotnet build --no-restore
     - name: Publish
       working-directory: ./dotnet
-      run: dotnet publish --runtime win-x64 -c Release -o ./publish
+      run: dotnet publish --runtime win-x64 -c Release
