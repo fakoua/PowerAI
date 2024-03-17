@@ -6,18 +6,17 @@
     <Nullable>enable</Nullable>
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>false</SelfContained>
-    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <ApplicationIcon>PowerAI.ico</ApplicationIcon>
     <AssemblyName>PowerAI</AssemblyName>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Sameh Fakoua</Authors>
     <Company>@fakoua</Company>
     <Product>PowerAI</Product>
     <PackageId>PowerAI</PackageId>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
     <NeutralLanguage>en</NeutralLanguage>
-    <Description>Your Windows Command Line Assistant (AI)</Description>
+    <Description>Your Windows/Linux Command Line Assistant (AI)</Description>
     <Copyright>Sameh Fakoua</Copyright>
     <PackageLicenseUrl>https://github.com/fakoua/PowerAI/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/fakoua/PowerAI</PackageProjectUrl>
