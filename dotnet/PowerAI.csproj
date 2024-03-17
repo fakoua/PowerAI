@@ -24,6 +24,12 @@
     <RepositoryUrl>https://github.com/fakoua/PowerAI</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
 
   <ItemGroup>
     <Content Include="PowerAI.ico" />
