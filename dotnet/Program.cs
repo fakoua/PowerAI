@@ -10,9 +10,9 @@ class Program
         try
         {
             aiService = new OpenAIService();
+            Console.WriteLine(Utils.GetWelcomeMessage());
             do
             {
-                Console.WriteLine(Utils.GetWelcomeMessage());
                 Console.Write("PowerAI:> ");
                 input = Console.ReadLine()?.ToString();
                 if (input == "exit")
