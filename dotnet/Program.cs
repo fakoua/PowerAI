@@ -12,6 +12,7 @@ class Program
             aiService = new OpenAIService();
             do
             {
+                Console.WriteLine(Utils.GetWelcomeMessage());
                 Console.Write("PowerAI:> ");
                 input = Console.ReadLine()?.ToString();
                 if (input == "exit")

@@ -9,13 +9,13 @@
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <ApplicationIcon>PowerAI.ico</ApplicationIcon>
     <AssemblyName>PowerAI</AssemblyName>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Sameh Fakoua</Authors>
     <Company>@fakoua</Company>
     <Product>PowerAI</Product>
     <PackageId>PowerAI</PackageId>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
     <NeutralLanguage>en</NeutralLanguage>
     <Description>Your Windows Command Line Assistant (AI)</Description>
     <Copyright>Sameh Fakoua</Copyright>
