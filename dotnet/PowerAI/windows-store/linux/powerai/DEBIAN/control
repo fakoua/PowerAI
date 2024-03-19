@@ -1,0 +1,6 @@
+Package: powerai
+Version: 1.0.x
+Architecture: all
+Maintainer: Sameh Fakoua <s.fakoua@gmail.com>
+Description: Your Linux command line assistant (AI)
+
